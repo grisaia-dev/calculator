@@ -1,6 +1,6 @@
 import classes from './index.module.scss'
 
-const Display = ({ position, width }) => {
+const Display = ({ position, width, children }) => {
   const styles = {}
   if (styles) {
     styles.gridColumnStart = position[0] + 1
@@ -9,8 +9,9 @@ const Display = ({ position, width }) => {
   if (width) {
     styles.gridColumnEnd = `span ${width}`
   }
+  
   return (
-    <div className={classes.display} style={styles}>45</div>
+    <div className={classes.display} style={styles}>{children}</div>
   )
 }
 

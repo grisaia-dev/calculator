@@ -5,4 +5,10 @@
   background: #333333;
   font-size: 28pt;
   cursor: pointer;
+  opacity: 0.82;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    opacity: 1;
+    font-weight: 500;
+  }
 }
