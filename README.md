@@ -6,4 +6,4 @@
   - Vite
 
 ---
-[Calculator](/assets/screen.png)
+![Calculator](/assets/screen.png)
