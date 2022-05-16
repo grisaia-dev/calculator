@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  background: #181818;
+}
+
+.container {
+  width: 100vm;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .calc {
+    border: 1px solid #353535;
+    border-radius: 7px;
+    background: #262626;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(6, 100px);
+    grid-gap: 5px;
+  }
+}

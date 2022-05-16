@@ -1,0 +1,33 @@
+{
+  "name": "calculator",
+  "private": false,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/eslint-parser": "^7.17.0",
+    "@babel/eslint-plugin": "^7.17.7",
+    "@babel/eslint-plugin-development": "^7.17.7",
+    "@babel/helper-module-imports": "^7.16.7",
+    "@babel/helpers": "^7.17.9",
+    "@babel/plugin-proposal-dynamic-import": "^7.16.7",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^1.3.0",
+    "eslint": "^8.15.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin": "^1.0.1",
+    "prettier": "^2.6.2",
+    "sass": "^1.51.0",
+    "vite": "^2.9.9",
+    "yarn-audit-fix": "^9.3.1"
+  }
+}
